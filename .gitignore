@@ -10,3 +10,4 @@ npm-debug.log
 .idea
 .nyc_output/
 yarn-error.log
+.next
