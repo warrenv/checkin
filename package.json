@@ -5,8 +5,8 @@
   "repository": "https://github.com/warrenv/checkin.git",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint 'test/**/*.js'",
-    "test": "NODE_ENV=test nyc --all --include 'src/**/*.js' tape 'test/**/*.js' | faucet",
+    "lint": "eslint 'pages/**/*.js' 'test/**/*.js'",
+    "test": "NODE_ENV=test nyc --all --include 'pages/**/*.js' tape 'test/**/*.js' | faucet",
     "test:cov": "NODE_ENV=test nyc report --all --reporter=lcov --reporter=text-summary",
     "dev": "next",
     "build": "next build",
@@ -16,6 +16,7 @@
     "enzyme": "^2.8.2",
     "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
