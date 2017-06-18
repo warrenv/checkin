@@ -13,6 +13,7 @@
     "start": "next start"
   },
   "devDependencies": {
+    "enzyme": "^2.8.2",
     "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-node": "^5.0.0",
